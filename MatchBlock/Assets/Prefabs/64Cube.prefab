@@ -110,9 +110,10 @@ GameObject:
   - component: {fileID: 1251467982288724313}
   - component: {fileID: 5906359815934026045}
   - component: {fileID: 8757201843907473453}
+  - component: {fileID: -1437499627476323202}
   m_Layer: 0
   m_Name: 64Cube
-  m_TagString: Untagged
+  m_TagString: Cube
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -212,3 +213,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-1437499627476323202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2388960500783558728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c57bfafcd43e3ee45b2b09fab9fb95a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  value: 64
+  nextCube: {fileID: 5165772657391843745, guid: ec1a5c1f33fee3b40b3565a015fca154, type: 3}
+  rb: {fileID: 0}
+  ID: 0
